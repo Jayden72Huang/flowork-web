@@ -1,0 +1,2 @@
+import type { Lang } from './content';
+export default function Features({lang}:{lang:Lang}){const zh=lang==='zh';return <div className="grid3 lines">{(zh?['录音与标记：留下需要继续处理的片段','来源与确认：核对原文和下一步','执行与回执：查看设备的真实结果']:['Capture audio and important markers','Review sources and approve the next step','Check the actual execution receipt']).map(t=><article className="cell" key={t}><h3>{t}</h3><p>{zh?'产品流程示意，具体能力以可用版本与实机验证为准。':'Product workflow illustration. Availability depends on the build and device validation.'}</p></article>)}</div>}

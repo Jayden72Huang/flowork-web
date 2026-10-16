@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/flow-space",
+      "destination": "/index.html"
+    }
+  ]
+}
